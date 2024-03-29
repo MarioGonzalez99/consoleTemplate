@@ -20,7 +20,7 @@ func main() {
 
 	// Boolean flag example
 	var boolFlag *bool
-	boolFlag = flag.Bool("bool", false, "help message for flag bool")
+	boolFlag = flag.Bool("active", false, "help message for flag active")
 
 	// Parse flags
 	flag.Parse()
